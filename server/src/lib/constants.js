@@ -1,0 +1,23 @@
+const PORT = 5000;
+const WEBHOOK_URL = 'http://localhost:5000/webhooks';
+const MAX_CONCURRENT = 3;
+const NUMBERS = [
+  '13018040009',
+  '19842068287',
+  '15512459377',
+  '19362072765',
+  '18582210308',
+  '13018040009',
+  '19842068287',
+  '15512459377',
+  '19362072765',
+];
+const NUM_DIALER_BASE_URI = 'http://localhost:4830';
+
+module.exports = {
+  PORT,
+  WEBHOOK_URL,
+  MAX_CONCURRENT,
+  NUMBERS,
+  NUM_DIALER_BASE_URI,
+};
